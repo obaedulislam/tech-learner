@@ -37,6 +37,9 @@ h5{
     line-height: 35px;
     color: #000041;
 }
+h6{
+    font-size: 20px;
+}
 p{
     font-family: 'PT Sans', sans-serif;
     font-size: 16px;
@@ -87,6 +90,9 @@ ul.navbar-nav li a{
 .hero-section p{
     font-size: 18px;
     line-height: 30px;
+    color: #F4F4F4;
+}
+.secoond-par{
     color: #F4F4F4;
 }
 .prev-icon, .next-icon{
