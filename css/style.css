@@ -18,16 +18,35 @@ body{
     font-family: 'PT Sans', sans-serif;
     font-size: 16px;
 }
-h1{
+h1,h2,h3,h4,h5,h6{
     font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+h1{
     font-size: 65px;
     line-height: 75px;
-    font-weight: 600;
     color: #ffffff;
+}
+h2{
+    font-size: 45px;
+    line-height: 55px;
+    color: #000041;
+}
+h5{
+    font-size: 25px;
+    line-height: 35px;
+    color: #000041;
 }
 p{
     font-family: 'PT Sans', sans-serif;
     font-size: 16px;
+    color: #333;
+}
+.section-padding-top{
+    padding-top: 100px;
+}
+.section-padding-bottom{
+    padding-bottom: 100px;
 }
 /*==| Common CSS End |==*/
 
@@ -39,7 +58,7 @@ Header CSS Start
     font-family: 'Poppins', sans-serif;
     font-size: 40px;
     font-weight: 700;
-    color: #03037e;
+    color: #000041;
 }
 ul.navbar-nav li{
     margin: 15px;
