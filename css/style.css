@@ -24,27 +24,21 @@ h1,h2,h3,h4,h5,h6{
 }
 h1{
     font-size: 65px;
-    line-height: 75px;
     color: #ffffff;
 }
 h2{
     font-size: 45px;
-    line-height: 55px;
     color: #000041;
 }
 h5{
     font-size: 22px;
-    line-height: 35px;
     color: #000041;
 }
 h6{
     font-size: 18px;
-    line-height: 30px;
-    margin-bottom: 0;
 }
 p{
     font-family: 'PT Sans', sans-serif;
-    font-size: 16px;
     color: #333;
 }
 .section-padding-top{
@@ -52,9 +46,6 @@ p{
 }
 .section-padding-bottom{
     padding-bottom: 100px;
-}
-.view-all-btn button, .join-btn button, .register-btn button{
-    font-weight: 600;
 }
 /*==| Common CSS End |==*/
 
@@ -65,17 +56,9 @@ Header CSS Start
 .logo{
     font-family: 'Poppins', sans-serif;
     font-size: 40px;
-    font-weight: 700;
     color: #000041;
 }
-ul.navbar-nav li{
-    margin: 15px;
-}
-ul.navbar-nav li a{
-    font-family: 'PT Sans', sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-}
+
 
 /* Navigation CSS End */
 .hero-section .carousel-item .carousel-img{
@@ -95,14 +78,12 @@ ul.navbar-nav li a{
 .hero-section{
     margin-top: 100px;
 }
-.hero-section p{
+.hero-section p, p.second-par{
     font-size: 18px;
     line-height: 30px;
     color: #F4F4F4;
 }
-.secoond-par{
-    color: #F4F4F4;
-}
+
 .prev-icon, .next-icon{
     filter: invert(0) grayscale(100) !important;
 }
@@ -114,9 +95,6 @@ Header CSS End
 /*=======================
 Main CSS Start
 =========================*/
-.all-faq p{
-    font-size: 18px;
-}
 .brand-img{
     width: 150px;
 }
@@ -132,15 +110,13 @@ footer{
     background-color: #161616;
 }
 .social-icon ul li a i {
-    width: 45px;
-    height: 45px;
+    width: 35px;
+    height: 35px;
     padding: 10px;
-    font-size: 23px;
-    line-height: 26px;
+    font-size: 18px;
+    line-height: 15px;
     text-align: center;
     background-color: #323232;
-    color: #fff;
-    border-radius: 100%;
     transition: .5s;
 }
 .social-icon ul li a i:hover {
