@@ -253,7 +253,78 @@
                 </div>
                 <div class="col-md-6 d-flex justify-content-end align-items-center">
                     <div class="join-btn p-lg-3 p-md-3 p-sm-0 p-0">
-                        <button class="btn btn-light border border-primary border-2 px-4 py-2 fw-bold text-primary px-2 px-4 fs-5">Register Now</button>
+                     <!-- Button trigger modal -->
+                        <button type="button" class=" btn btn-light border border-primary border-2 px-4 py-2 fw-bold text-primary px-2 px-4 fs-5" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                            Register Now
+                        </button>
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            <div class="modal-dialog  modal-dialog-centered modal-dialog-scrollable">
+                            <div class="modal-content">
+                                <div class="modal-header bg-light">
+                                <h5 class="modal-title" id="staticBackdropLabel">Enroll Your Course</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <form class="row g-3">
+                                        <div class="col-md-6">
+                                            <input type="text" class="form-control bg-light" placeholder="First name" aria-label="First name">
+                                          </div>
+                                          <div class="col-md-6">
+                                            <input type="text" class="form-control bg-light" placeholder="Last name" aria-label="Last name">
+                                          </div>                                        
+                                        <div class="col-md-6">
+                                          <input type="email" class="form-control bg-light" id="inputEmail4" placeholder="Your Email">
+                                        </div>
+                                        <div class="col-md-6">
+                                          <input type="password" class="form-control bg-light" id="inputPassword4" placeholder="Password" >
+                                        </div>
+                                        <div class="col-md-12">
+                                          <label for="inputAddress" class="form-label">Your Address</label>
+                                          <input type="text" class="form-control bg-light" id="inputAddress" placeholder="Road, Thana">
+                                        </div>
+                                        <div class="col-md-6">
+                                          <label for="inputCity" class="form-label">City</label>
+                                          <input type="text" class="form-control bg-light" id="inputCity" placeholder="Home City">
+                                        </div>
+                                        <div class="col-md-4">
+                                          <label for="inputState" class="form-label">State</label>
+                                          <select id="inputState" class="form-select">
+                                            <option selected>Choose...</option>
+                                            <option>Dhaka</option>
+                                            <option>Cumilla</option>
+                                            <option>Chitagong</option>
+                                            <option>Sylhet</option>
+                                            <option>Barishal</option>
+                                            <option>Khulna</option>
+                                            <option>Rajshahi</option>
+                                            <option>Rangpur</option>
+                                            <option>Mymenshing</option>
+                                          </select>
+                                        </div>
+                                        <div class="col-md-2">
+                                          <label for="inputZip" class="form-label">Zip</label>
+                                          <input type="text" class="form-control bg-light" id="inputZip">
+                                        </div>
+                                        <div class="col-12">
+                                          <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                                            <label class="form-check-label" for="gridCheck">
+                                              Check me out
+                                            </label>
+                                          </div>
+                                        </div>
+                                      </form>
+                                </div>
+                                <div class="modal-footer bg-light">
+                                <button type="button" class="btn btn-secondary fw-bold" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary fw-bold">Register Now</button>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+  
                     </div>
                 </div>
             </div>
@@ -261,6 +332,62 @@
         <!--==== Call To Action Section End ====-->
 
 
+        <!--==== FAQ Section Started ====-->
+        <section class="faq-section container section-padding-bottom g-0">
+            <div class="faq-section-head text-center">
+                <h2>Frequently Asked Questions</h2>
+                <p>It is a long established fact that a reader will be distracted by the readable<br> content of a page when looking at its layout.</p>
+            </div>
+            <div class="all-faq mt-5">
+                <div class="row d-flex  justify-content-center" >
+                    <div class="col-md-8">
+                        <div class="accordion" id="accordionPanelsStayOpenExample">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                                  <h6>Difference Between Flexbox and Grid</h6>
+                                </button>
+                              </h2>
+                              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                                <div class="accordion-body">
+                                    <p>The basic difference between CSS Grid Layout and CSS Flexbox Layout is that flexbox was designed for layout in one dimension - either a row or a column. Grid was designed for two-dimensional layout - rows, and columns at the same time. </p>
+                                    <p>Flexbox, gives you more flexibility while working on either element (row or column). HTML markup and CSS will be easy to manage in this type of scenario. GRID gives you more flexibility to move around the blocks irrespective of your HTML markup.</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                    <h6>BootStrap VS Tailwind</h6>
+                                </button>
+                              </h2>
+                              <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                                <div class="accordion-body">
+                                  <p>1. Tailwind offers predesigned widgets to build a site from scratch with fast UI development. Bootstrap comes with a set of pre-styled responsive, mobile-first components that possess a definite UI kit.</p>
+                                  <p>2. Tailwind CSS uses a set of utility classes to create a neat UI with more flexibility and uniqueness. Sites created using Bootstrap follow the generic pattern that makes them look identical.</p>
+                                  <p>3. Websites created using Tailwind CSS are much more customizable. Websites created with Bootstraps are known for their responsiveness and flawless design, but the looks are generic and similar.</p>
+                                  <p>4. Tailwind CSS is relatively newer, and there is still much room to grow in terms of its community, however, it is growing day by day, and the number of users, references, tools, and websites related to it are also increasing. Bootstrap is efficient and saves a lot of time. It has been around for more than nine years and being the most popular CSS Framework, it has a large community of developers, forums, tools, and so on.</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                                  Accordion Item #3
+                                </button>
+                              </h2>
+                              <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                                <div class="accordion-body">
+                                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--==== FAQ Section End ====-->
     </main>
     <!--==| Main Section End Here |==-->
 
