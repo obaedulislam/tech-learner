@@ -53,6 +53,9 @@ p{
 .section-padding-bottom{
     padding-bottom: 100px;
 }
+.view-all-btn button, .join-btn button, .register-btn button{
+    font-weight: 600;
+}
 /*==| Common CSS End |==*/
 
 
@@ -88,6 +91,9 @@ ul.navbar-nav li a{
     bottom: 0;
     left: 0;
     background: #01012599;
+}
+.hero-section{
+    margin-top: 100px;
 }
 .hero-section p{
     font-size: 18px;

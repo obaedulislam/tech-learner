@@ -7,6 +7,72 @@
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px)  { 
+    h1{
+        font-size: 40px !important;
+        line-height: 48px !important;
+    }
+    h2{
+        font-size: 28px !important;
+        line-height: 38px !important;
+    }
+    h5{
+        font-size: 20px !important;
+        line-height: 28px !important;
+    }
+    h6{
+        font-size: 16px !important;
+        line-height: 26px !important;
+    }
+    .section-padding-top{
+        padding-top: 50px !important;
+    }
+    .section-padding-bottom{
+        padding-bottom: 50px !important;
+    }
+    .logo {
+        font-size: 30px !important;
+    }
+    .hero-section{
+        margin-top: 60px !important;
+    }
+    .hero-section p {
+        font-size: 16px !important;
+        line-height: 26px !important;
+    }
+    .carousel-item{
+        height: 60vh !important;
+    }
+    .carousel-img{
+        height: 100% !important;
+    }
+    .carousel-img img{
+        height: 100% !important;
+    }
+    .caption-left{
+        left: 7% !important;
+    }
+    .caption-right{
+        right: 7% !important;
+    }
+    .next-icon, .prev-icon{
+        width: 25px !important;
+    }
+    .course-img img{
+        width: 100%;
+    }
+    .brand-img img{
+        width: 100px;
+    }
+    .all-faq p{
+        font-size: 16px !important;
+    }
+    .social-icon ul li a i {
+        width: 35px !important;
+        height: 35px !important;
+        padding: 10px !important;
+        font-size: 18px !important;
+        line-height: 15px !important;
+    }
 
  }
 
@@ -28,7 +94,25 @@
         font-size: 18px !important;
         line-height: 26px !important;
     }
-    
+    .section-padding-top{
+        padding-top: 70px !important;
+    }
+    .section-padding-bottom{
+        padding-bottom: 70px !important;
+    }
+    .logo {
+        font-size: 32px !important;
+    }
+    .hero-section p {
+        font-size: 16px !important;
+        line-height: 26px !important;
+    }
+    .course-img img{
+        width: 100% !important;
+    }
+    .all-faq p{
+        font-size: 16px !important;
+    }
 
  }
 
