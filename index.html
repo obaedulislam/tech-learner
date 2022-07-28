@@ -284,11 +284,11 @@
                                           <label for="inputAddress" class="form-label">Your Address</label>
                                           <input type="text" class="form-control bg-light" id="inputAddress" placeholder="Road, Thana">
                                         </div>
-                                        <div class="col-md-6">
+                                        <div class="col-md-5">
                                           <label for="inputCity" class="form-label">City</label>
                                           <input type="text" class="form-control bg-light" id="inputCity" placeholder="Home City">
                                         </div>
-                                        <div class="col-md-4">
+                                        <div class="col-md-4 col-7">
                                           <label for="inputState" class="form-label">State</label>
                                           <select id="inputState" class="form-select">
                                             <option selected>Choose...</option>
@@ -303,7 +303,7 @@
                                             <option>Mymenshing</option>
                                           </select>
                                         </div>
-                                        <div class="col-md-2">
+                                        <div class="col-md-3 col-5">
                                           <label for="inputZip" class="form-label">Zip</label>
                                           <input type="text" class="form-control bg-light" id="inputZip">
                                         </div>
@@ -341,58 +341,158 @@
             <div class="all-faq mt-5">
                 <div class="row d-flex  justify-content-center" >
                     <div class="col-md-8">
-                        <div class="accordion" id="accordionPanelsStayOpenExample">
-                            <div class="accordion-item">
-                              <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                                  <h6>Difference Between Flexbox and Grid</h6>
+                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                            <div class="accordion-item ">
+                              <h2 class="accordion-header " id="flush-headingOne">
+                                <button class="accordion-button collapsed bg-light rounded px-lg-4 px-md-3 px-sm-3 p-2 py-lg-4 py-md-3 py-sm-2 p-2 shadow-sm" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                    <h6>Difference Between Flexbox and Grid</h6>
                                 </button>
                               </h2>
-                              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                              <div id="flush-collapseOne" class="accordion-collapse collapse border border-1 rounded " aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body">
                                     <p>The basic difference between CSS Grid Layout and CSS Flexbox Layout is that flexbox was designed for layout in one dimension - either a row or a column. Grid was designed for two-dimensional layout - rows, and columns at the same time. </p>
                                     <p>Flexbox, gives you more flexibility while working on either element (row or column). HTML markup and CSS will be easy to manage in this type of scenario. GRID gives you more flexibility to move around the blocks irrespective of your HTML markup.</p>
                                 </div>
                               </div>
                             </div>
-                            <div class="accordion-item">
-                              <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                            <div class="accordion-item border-1 mt-3">
+                              <h2 class="accordion-header" id="flush-headingTwo">
+                                <button class="accordion-button collapsed bg-light rounded px-lg-4 px-md-3 px-sm-3 p-2 py-lg-4 py-md-3 py-sm-2 p-2 shadow-sm" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
                                     <h6>BootStrap VS Tailwind</h6>
                                 </button>
                               </h2>
-                              <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                              <div id="flush-collapseTwo" class="accordion-collapse collapse border border-1 rounded " aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body">
-                                  <p>1. Tailwind offers predesigned widgets to build a site from scratch with fast UI development. Bootstrap comes with a set of pre-styled responsive, mobile-first components that possess a definite UI kit.</p>
-                                  <p>2. Tailwind CSS uses a set of utility classes to create a neat UI with more flexibility and uniqueness. Sites created using Bootstrap follow the generic pattern that makes them look identical.</p>
-                                  <p>3. Websites created using Tailwind CSS are much more customizable. Websites created with Bootstraps are known for their responsiveness and flawless design, but the looks are generic and similar.</p>
-                                  <p>4. Tailwind CSS is relatively newer, and there is still much room to grow in terms of its community, however, it is growing day by day, and the number of users, references, tools, and websites related to it are also increasing. Bootstrap is efficient and saves a lot of time. It has been around for more than nine years and being the most popular CSS Framework, it has a large community of developers, forums, tools, and so on.</p>
+                                    <p>The basic difference between CSS Grid Layout and CSS Flexbox Layout is that flexbox was designed for layout in one dimension - either a row or a column. Grid was designed for two-dimensional layout - rows, and columns at the same time. </p>
+                                    <p>Flexbox, gives you more flexibility while working on either element (row or column). HTML markup and CSS will be easy to manage in this type of scenario. GRID gives you more flexibility to move around the blocks irrespective of your HTML markup.</p>
                                 </div>
                               </div>
                             </div>
-                            <div class="accordion-item">
-                              <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                                  Accordion Item #3
+                            <div class="accordion-item border-1 mt-3">
+                              <h2 class="accordion-header" id="flush-headingThree">
+                                <button class="accordion-button collapsed bg-light rounded px-lg-4 px-md-3 px-sm-3 p-2 py-lg-4 py-md-3 py-sm-2 p-2 shadow-sm" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                  <h6>What is CSS Box Model?</h6>
                                 </button>
                               </h2>
-                              <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                              <div id="flush-collapseThree" class="accordion-collapse collapse border border-1 rounded" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body">
-                                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                    <p>The CSS box model is a container that contains multiple properties including borders, margin, padding, and the content itself. It is used to create the design and layout of web pages. It can be used as a toolkit for customizing the layout of different elements.</p>
+                                    <p>The web browser renders every element as a rectangular box according to the CSS box model. Box-Model has multiple properties in CSS. Some of them are given below: </p>
+                                    <ul>
+                                        <li>
+                                            <p>Content: This property is used to displays the text, images, etc, that can be sized using the width & height property.</p>
+                                        </li>
+                                        <li>
+                                            <p>Padding: This property is used to create space around the element, inside any defined border</p>
+                                        </li>
+                                        <li>
+                                            <p>Border: This property is used to cover the content & any padding, & also allows to set the style, color, and width of the border.</p>
+                                        </li>
+                                        <li>
+                                            <p>Margin: This property is used to create space around the element ie., around the border area.</p>
+                                        </li>
+                                    </ul>
                                 </div>
                               </div>
                             </div>
-                          </div>
+                            <div class="accordion-item border-1 mt-3">
+                                <h2 class="accordion-header" id="flush-headingFour">
+                                  <button class="accordion-button collapsed bg-light rounded px-lg-4 px-md-3 px-sm-3 p-2 py-lg-4 py-md-3 py-sm-2 p-2 shadow-sm" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                                      <h6>What Is Semantic Tag?</h6>
+                                  </button>
+                                </h2>
+                                <div id="flush-collapseFour" class="accordion-collapse collapse border border-1 rounded" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                                  <div class="accordion-body">
+                                      <p>A semantic element clearly describes its meaning to both the browser and the developer.</p>
+                                      
+                                      <p>Examples of non-semantic elements: <code class="w3-codespan">&lt;div&gt;</code> and <code class="w3-codespan">&lt;span&gt;</code> - Tells nothing about its content.</p>
+                                      <p>Examples of semantic elements: <code class="w3-codespan">&lt;form&gt;</code>, <code class="w3-codespan">&lt;table&gt;</code> , and <code class="w3-codespan">&lt;article&gt;</code>  - Clearly defines its content.</p>
+                                      <p>In HTML there are some semantic elements that can be used to define different parts of a web page: </p>
+                                      <div class="row px-5">
+                                        <div class="col-md-4 col-sm-4">
+                                            <ul class="list-group list-group-vertical">
+                                                <li><p><code class="w3-codespan">&lt;header&gt;</code></p></li>
+                                                <li><p><code class="w3-codespan">&lt;main&gt;</code></p></li>
+                                                <li><p><code class="w3-codespan">&lt;foooter&gt;</code></p></li>
+                                                <li><p><code class="w3-codespan">&lt;section&gt;</code></p></li>
+                                              </ul>
+                                        </div>
+                                        <div class="col-md-4 col-sm-4">
+                                            <ul class="list-group list-group-vertical">
+                                                <li><p><code class="w3-codespan">&lt;article&gt;</code></p></li>
+                                                <li><p><code class="w3-codespan">&lt;aside&gt;</code></p></li>
+                                                <li><p><code class="w3-codespan">&lt;details&gt;</code></p></li>
+                                                <li><p><code class="w3-codespan">&lt;nav&gt;</code></p></li>
+                                              </ul>
+                                        </div>
+                                        <div class="col-md-4 col-sm-4">
+                                            <ul class="list-group list-group-vertical">
+                                                <li><p><code class="w3-codespan">&lt;figcaption&gt;</code></p></li>
+                                                <li><p><code class="w3-codespan">&lt;figure&gt;</code></p></li>
+                                                <li><p><code class="w3-codespan">&lt;summary&gt;</code></p></li>
+                                                <li><p><code class="w3-codespan">&lt;time&gt;</code></p></li>
+                                              </ul>
+                                        </div>
+                                      </div>
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
         <!--==== FAQ Section End ====-->
+
+        <!--==== Brand Section End ====-->        
+        <section class="brand-section container section-padding-bottom g-0">
+            <div class="brand-section-head text-center">
+                <h2>Trusted by over 800+ companies</h2>
+                <div class="row mt-lg-5 mt-md-4 mt-sm-3 mt-3">
+                    <div class="col-md-2 col-sm-4 col-6 d-flex align-items-center justify-content-center">
+                        <div class="brand-img text-center">
+                            <img src="images/company/company-1.png" alt="Company" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-4 col-6 d-flex align-items-center justify-content-center">
+                        <div class="brand-img text-center">
+                            <img src="images/company/company-2.png" alt="Company" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-4 col-6 d-flex align-items-center justify-content-center mt-sm-0 mt-3">
+                        <div class="brand-img text-center">
+                            <img src="images/company/company-3.png" alt="Company" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-4 col-6 d-flex align-items-center justify-content-center mt-md-0 mt-sm-4 mt-3">
+                        <div class="brand-img text-center">
+                            <img src="images/company/company-4.png" alt="Company" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-4 col-6 d-flex align-items-center justify-content-center mt-md-0 mt-sm-4 mt-3">
+                        <div class="brand-img text-center">
+                            <img src="images/company/company-5.png" alt="Company" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-4 col-6 d-flex align-items-center justify-content-center mt-md-0 mt-sm-4 mt-3 ">
+                        <div class="brand-img text-center">
+                            <img src="images/company/company-6.png" alt="Company" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--==== Brand Section End ====-->
+
+
     </main>
     <!--==| Main Section End Here |==-->
 
 
     <!--==| Footer Section Start Here |==-->
+    <footer>
+
+    </footer>
     <!--==| Footer Section End Here |==-->
 
     <!--==| All JS Link Intgration Start |==-->

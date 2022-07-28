@@ -39,6 +39,8 @@ h5{
 }
 h6{
     font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 0;
 }
 p{
     font-family: 'PT Sans', sans-serif;
@@ -106,7 +108,12 @@ Header CSS End
 /*=======================
 Main CSS Start
 =========================*/
-
+.all-faq p{
+    font-size: 18px;
+}
+.brand-img{
+    width: 150px;
+}
 /*=======================
 Main CSS End
 =========================*/
