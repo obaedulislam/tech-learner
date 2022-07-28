@@ -122,7 +122,25 @@ Main CSS End
 /*=======================
 Footer CSS Start
 =========================*/
-
+footer{
+    background-color: #161616;
+}
+.social-icon ul li a i {
+    width: 45px;
+    height: 45px;
+    padding: 10px;
+    font-size: 23px;
+    line-height: 26px;
+    text-align: center;
+    background-color: #323232;
+    color: #fff;
+    border-radius: 100%;
+    transition: .5s;
+}
+.social-icon ul li a i:hover {
+    background-color: #fff;
+    color: #161616;
+}
 /*=======================
 Footer CSS End
 =========================*/
