@@ -14,17 +14,8 @@
         font-size: 14px !important;
     }
     
-    .section-padding-top{
-        padding-top: 30px !important;
-    }
-    .section-padding-bottom{
-        padding-bottom: 30px !important;
-    }
     .logo {
         font-size: 24px !important;
-    }
-    .hero-section{
-        margin-top: 50px !important;
     }
     .hero-section p {
         font-size: 16px !important;
@@ -41,6 +32,9 @@
     }
     .next-icon, .prev-icon{
         width: 22px !important;
+    }
+    .hero-section{
+        margin-top: 50px !important;
     }
 
  }
@@ -59,12 +53,6 @@
     }
     h6{
         font-size: 16px !important;
-    }
-    .section-padding-top{
-        padding-top: 50px !important;
-    }
-    .section-padding-bottom{
-        padding-bottom: 50px !important;
     }
     .logo {
         font-size: 30px !important;
@@ -108,7 +96,7 @@
         font-size: 32px !important;
     }
     .hero-section{
-        margin-top: 70px !important;
+        margin-top: 80px !important;
     }
 
  }

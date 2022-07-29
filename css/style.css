@@ -1,13 +1,3 @@
-/*==| All Font Integration Start |==*/
-
-/* Poppins Font */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap');
-
-/* PT Sans Font */
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
-/*==| All Font Integration End |==*/
-
 
 /*==| Common CSS Start |==*/
 *{
@@ -21,18 +11,16 @@ body{
 h1,h2,h3,h4,h5,h6{
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
+    color: #000041;
 }
 h1{
     font-size: 65px;
-    color: #ffffff;
 }
 h2{
     font-size: 45px;
-    color: #000041;
 }
 h5{
     font-size: 22px;
-    color: #000041;
 }
 h6{
     font-size: 18px;
@@ -58,9 +46,8 @@ Header CSS Start
     font-size: 40px;
     color: #000041;
 }
-
-
 /* Navigation CSS End */
+
 .hero-section .carousel-item .carousel-img{
     position: relative;
 }
