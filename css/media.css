@@ -19,16 +19,9 @@
     }
     .hero-section p {
         font-size: 16px !important;
-        line-height: 24px !important;
     }
     .carousel-item{
-        height: 60vh !important;
-    }
-    .caption-left{
-        left: 5% !important;
-    }
-    .caption-right{
-        right: 5% !important;
+        height: 80vh !important;
     }
     .next-icon, .prev-icon{
         width: 22px !important;
@@ -62,16 +55,15 @@
     }
     .hero-section p {
         font-size: 16px !important;
-        line-height: 24px !important;
     }
     .carousel-item{
         height: 60vh !important;
     }
     .caption-left{
-        left: 7% !important;
+        left: 5% !important;
     }
     .caption-right{
-        right: 7% !important;
+        right: 5% !important;
     }
     .next-icon, .prev-icon{
         width: 25px !important;
