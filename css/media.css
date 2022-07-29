@@ -36,7 +36,7 @@
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px)  { 
     h1{
-        font-size: 40px !important;
+        font-size: 36px !important;
     }
     h2{
         font-size: 28px !important;
@@ -77,12 +77,6 @@
     }
     h2{
         font-size: 30px !important;
-    }
-    .section-padding-top{
-        padding-top: 70px !important;
-    }
-    .section-padding-bottom{
-        padding-bottom: 70px !important;
     }
     .logo {
         font-size: 32px !important;
